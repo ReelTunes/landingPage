@@ -12,7 +12,9 @@
     margin-bottom: 50px;
 }
 .title:hover {
+
     transform: translateY(-5px) scale(1.01); /* Move container up slightly and scale it up on hover */
+
 }
 .title{
     color: rgb(182, 241, 219);
@@ -39,4 +41,5 @@
     margin-top: 40px;
     margin: 10px;
     margin-bottom: 20px;
+
 }

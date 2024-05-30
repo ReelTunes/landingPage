@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='app'>
       <Navbar></Navbar>
-      
+
       <Hero></Hero>
       <Banner></Banner>
       <h1>ReelTunes</h1>
