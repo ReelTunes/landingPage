@@ -1,11 +1,11 @@
-
-import reelTunesLogo from './assets/ReelTunes2.png'
 import './App.css'
-
+import reelTunesLogo from './assets/reeltunes.png'
+import { Navbar } from './components/navbar/Navbar'
 function App() {
 
   return (
-    <>
+    <div className='app'>
+      <Navbar></Navbar>
       <h1>ReelTunes</h1>
       <img className='logo' src={reelTunesLogo} />
       <div className="mission">
@@ -14,7 +14,7 @@ function App() {
       </div>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4mOKJsH1GLfOabNdeQLK0toAeeSeLcBwx3QNp8YXtUIz1zA/viewform?embedded=true" width="640" height="480" frameBorder="0">Loading…</iframe>
 
-    </>
+    </div>
   )
 }
 

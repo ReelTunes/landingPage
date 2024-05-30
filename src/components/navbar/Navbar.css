@@ -1,0 +1,40 @@
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+.companyName{
+    color: wheat;
+}
+.waitlist{
+    color: white;
+    margin-left: auto;
+    margin-right: 35px;
+    background-color: #8895B3;
+    border-radius: 25px;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.waitlist a {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+img {
+    margin-left: 40px;
+    width: 50px; 
+    height: auto; 
+}
