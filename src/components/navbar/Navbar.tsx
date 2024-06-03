@@ -16,7 +16,7 @@ export const Navbar = () => {
                         </a>
                     </li>
                     <li className='waitlist'>
-                        <a href="https://aaczpsc6koh.typeform.com/to/OnfHKZzS">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4mOKJsH1GLfOabNdeQLK0toAeeSeLcBwx3QNp8YXtUIz1zA/viewform?embedded=true">
                             Join Waitlist
                         </a>
                     </li>
