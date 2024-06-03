@@ -13,7 +13,7 @@ export const Hero = () => {
                 </h3>
             </div>
             <div className="waitlistcontact">
-                <a className='herowaitlist' href="https://aaczpsc6koh.typeform.com/to/OnfHKZzS?typeform-source=localhost">
+                <a className='herowaitlist' href="https://docs.google.com/forms/d/e/1FAIpQLSc4mOKJsH1GLfOabNdeQLK0toAeeSeLcBwx3QNp8YXtUIz1zA/viewform?embedded=true">
                     Join Waitlist
                 </a>
                 <a className='herowaitlist' href="https://www.linkedin.com/company/reeltunes/">
