@@ -15,9 +15,9 @@ export const Navbar = () => {
                             <h1 className='companyName'>ReelTunes</h1>
                         </a>
                     </li>
-                    <li className='waitlist'>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4mOKJsH1GLfOabNdeQLK0toAeeSeLcBwx3QNp8YXtUIz1zA/viewform?embedded=true">
-                            Join Waitlist
+                    <li className='contact'>
+                        <a href="https://www.linkedin.com/company/reeltunes/">
+                            Contact Us
                         </a>
                     </li>
                 </ul>
