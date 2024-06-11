@@ -1,19 +1,16 @@
 .banner {
-    background: linear-gradient(180deg, #351431 0%, rgba(119, 82, 83, 0.00) 100%);
     color: #fff; 
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
     flex-wrap: wrap;
-    position: fixed;
-    bottom: 0;
 }
 
-.banner h1 {
+.banner h3 {
    color: #b2f1db;
-    margin-right: 10px;
+   margin: 0px;
 }
 
 .createx {

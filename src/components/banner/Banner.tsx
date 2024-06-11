@@ -5,7 +5,7 @@ const Banner = () => {
 
     return(
         <div className="banner">
-            <h1>Backed by</h1>
+            <h3>Launched through Create-X Startup Launch 2024</h3>
             <img className='createx' src={createxIcon} alt="" />
             <img className='gt' src={gtIcon} alt="" />
         </div>

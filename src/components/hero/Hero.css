@@ -1,7 +1,6 @@
 
 .hero{
 
-    padding-top: 88px;
     margin: 0 auto;
     max-width: 800px;
     display: flex;
@@ -10,6 +9,10 @@
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
+}
+.hero h1{
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .title:hover {
 
@@ -28,18 +31,52 @@
     color: rgb(182, 241, 219);
     transition: transform 0.7s ease; /* Add transition property for hover effect */
 }
+.subtitle h2{
+    margin: 80px;
+}
 .herowaitlist{
     color: white;
-    margin-right: auto;
     background-color: #8895B3;
     border-radius: 25px;
     padding: 10px;
     margin-left: 20px;
     margin-bottom: 5px;
 }
-.waitlistcontact{
+.waitlist{
     margin-top: 40px;
     margin: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 
 }
+.border {
+    --borderWidth: 20px; /* Ensure this variable is defined if you're using it */
+    border-width: var(--borderWidth); /* Using the CSS variable for consistency */
+    border-style: solid; /* Specify a border style */
+    border-color: #999; /* Define the border color */
+    position: relative;
+    border-radius: var(--borderWidth); /* Apply the border radius using the same variable */
+}
+/* .border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  @keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
