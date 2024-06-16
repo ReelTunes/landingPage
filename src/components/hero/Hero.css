@@ -1,8 +1,6 @@
-
 .hero{
-
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,25 +9,24 @@
     margin-bottom: 50px;
 }
 .hero h1{
-    font-size: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .title:hover {
 
-    transform: translateY(-5px) scale(1.01); /* Move container up slightly and scale it up on hover */
+    transform: translateY(-5px) scale(1.01); 
 
 }
 .title{
     color: rgb(182, 241, 219);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    transition: transform 0.7s ease; /* Add transition property for hover effect */
+    transition: transform 0.7s ease; 
 }
 .subtitle:hover{
-    transform: translateY(-5px) scale(1.01); /* Move container up slightly and scale it up on hover */
+    transform: translateY(-5px) scale(1.01);
 }
 .subtitle{
     color: rgb(182, 241, 219);
-    transition: transform 0.7s ease; /* Add transition property for hover effect */
+    transition: transform 0.7s ease;
 }
 .subtitle h2{
     margin: 80px;
@@ -37,46 +34,56 @@
 .herowaitlist{
     color: white;
     background-color: #8895B3;
-    border-radius: 25px;
-    padding: 10px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-.waitlist{
-    margin-top: 40px;
-    margin: 10px;
-    margin-bottom: 60px;
-
 }
 .border {
-    --borderWidth: 20px; /* Ensure this variable is defined if you're using it */
-    border-width: var(--borderWidth); /* Using the CSS variable for consistency */
-    border-style: solid; /* Specify a border style */
-    border-color: #999; /* Define the border color */
+    border-width: var(--borderWidth); 
+    border-style: solid; 
     position: relative;
-    border-radius: var(--borderWidth); /* Apply the border radius using the same variable */
+    border-radius: var(--borderWidth);
 }
-/* .border:after {
-    content: '';
-    position: absolute;
-    top: calc(-1 * var(--borderWidth));
-    left: calc(-1 * var(--borderWidth));
-    height: calc(100% + var(--borderWidth) * 2);
-    width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    border-radius: calc(2 * var(--borderWidth));
-    z-index: -1;
-    animation: animatedgradient 3s ease alternate infinite;
-    background-size: 300% 300%;
-  }
-  @keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
+@media (max-width: 768px) {
+    .hero h1{
+        font-size: 50px;
+    }
+    .border{
+        margin-top: 60px;
+        --borderWidth: 10px;
+    }
+    .subtitle h2{
+        margin: 30px;
+    }
+    .herowaitlist{
+        margin-left: 5px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        padding: 5px;
+    }
+    .waitlist{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+}
+@media (min-width: 768px) {
+    .hero h1{
+        font-size: 100px;
+    }
+    .border{
+        --borderWidth: 20px;
+    }
+    .subtitle h2{
+        margin: 80px;
+    }
+    .herowaitlist{
+        color: white;
+        background-color: #8895B3;
+        border-radius: 25px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .waitlist{
+        margin-top: 40px;
+        margin: 10px;
+        margin-bottom: 60px;
+    }
+}
