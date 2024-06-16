@@ -20,13 +20,8 @@ li {
 }
 .contact{
     color: white;
-    margin-left: auto;
-    margin-right: 35px;
     background-color: #8895B3;
     border-radius: 25px;
-    padding: 13px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .contact a {
     color: white;
@@ -40,3 +35,55 @@ a {
     width: 80px; 
     height: auto; 
 }
+/* Media Queries /
+@media (max-width: 768px) {
+    .companyName {
+        font-size: 24px; / Adjust font size for smaller screens /
+    }
+
+    .contact {
+        margin-left: auto;
+        padding: 13px;
+    }
+    .contact a{
+        size: 5px;
+    }
+
+    li {
+        margin: 0; / Adjust margin for better spacing on small screens /
+    }
+    .navbar img {
+        margin-top: 7px;
+        margin-left: 0px;
+        width: 80px; 
+        height: auto; 
+    }
+}
+/ Media Queries /
+@media (min-width: 768px) {
+    .companyName {
+        font-size: 24px; / Adjust font size for smaller screens /
+    }
+
+    .contact {
+        margin-left: auto;
+        margin-right: 35px;
+        padding: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact a{
+        size: 5px;
+    }
+
+    li {
+        margin: 5px 5px; / Adjust margin for better spacing on small screens 
+    }
+    */
+    .navbar img {
+        margin-top: 7px;
+        margin-left: 40px;
+        width: 80px; 
+        height: auto; 
+    }
+

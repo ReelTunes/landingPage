@@ -1,7 +1,7 @@
 import './App.css'
 import { Navbar } from './components/navbar/Navbar'
 import { Hero } from './components/hero/Hero'
-import Banner from './components/banner/Banner'
+import Footer from './components/footer/Footer'
 function App() {
 
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar></Navbar>
 
       <Hero></Hero>
-      <Banner></Banner>
+      <Footer></Footer>
     </div>
   )
 }
